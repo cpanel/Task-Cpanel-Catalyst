@@ -1,16 +1,32 @@
+# Copyright (c) 2012, cPanel, Inc.
+# All rights reserved.
+# http://cpanel.net
+#
+# This is free software; you can redistribute it and/or modify it under the
+# same terms as Perl itself. See L<perlartistic>.
 package Task::Cpanel::Catalyst;
 
-#use 5.014;
 use strict;
 use warnings;
 
 =head1 NAME
 
-Task::Cpanel::Catalyst - Modules provided for Catalyst support.
+Task::Cpanel::Catalyst - Provides a set of Catalyst modules
 
 =head1 SYNOPSIS
 
-cpan Task::Cpanel::Catalyst;
+    cpan Task::Cpanel::Catalyst
+
+=head1 DESCRIPTION
+
+This module provides a growing set of Catalyst modules useful to cPanel customers
+who want to build/use Catalyst apps which run on a B<cPanel & WHM> system.
+
+The first two numbers of this version (eg: 11.36) refer to the major version of
+B<cPanel & WHM> it applies to.
+
+We encourage customer feedback if you feel there are modules that would be useful
+to you that are not already on this list.
 
 =head2 MODULES REQUIRED
 
@@ -268,13 +284,13 @@ use forks;
 
 =head1 AUTHOR
 
-cPanel, C<< <kyle.lafkoff at cpanel.net> >>
+cPanel, C<< <cpanel at cpan.org> >>
 
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-task-cpanel-catalyst at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-Cpanel-Catalyst>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-Cpanel-Catalyst>.  We will be notified, and then you'll
+automatically be notified of progress on your bug as we make changes.
 
 =head1 SUPPORT
 
@@ -309,13 +325,16 @@ L<http://search.cpan.org/dist/Task-Cpanel-Catalyst/>
 
 Copyright 2012 cPanel.
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
+All rights reserved
+
+http://cpanel.net
+
+This is free software; you can redistribute it and/or modify it under the
+same terms as Perl itself. See L<perlartistic>.
 
 See http://dev.perl.org/licenses/ for more information.
 
 
 =cut
 
-1; # End of Task::Cpanel::Catalyst
+1;    # End of Task::Cpanel::Catalyst
